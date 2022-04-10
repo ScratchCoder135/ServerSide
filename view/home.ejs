@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head><link rel="stylesheet" href="/style.css"></head>
+<body>
+    <h1>What is the password?</h1>
+    <form action="/result" method="POST">
+    <input type="text" name="color">
+    <button>Submit</button>
+    </form>
+    <% if (Logged){%>
+    <p>Logged in</p>
+    <%}else{%>
+        <p>Not Logged in</p>
+    <%}%>
+</body>
